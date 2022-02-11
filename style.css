@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color:#9ec1d1;
+}
+
+#nav{
+    position: absolute;
+    top: 3%;
+    left: 63%;
+    transform: translate(-50%,0);
+    z-index: 99;
+    color: #ffff;
+    /* background-color: red; */
+}
+
+#nav a{
+    font-size: 12px;
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+#nav i{
+    font-size: 12px;
+    margin-left: 200px;
+}
+
+
+#left{
+    position: relative;
+    width: 60%;
+    min-height:inherit;
+    background-color:#9ec1d1;
+}
+
+#pic1{
+    position:absolute;
+    top: 10%;
+    left: 5%;
+    width: 250px;
+    height: 250px;
+    /* background-color: khaki; */
+    background-image: url("Tone.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#pic2{
+    position:absolute;
+    top: 10%;
+    right: 0%;
+    width: 450px;
+    height: 450px;
+    /* background-color: khaki; */
+    background-image: url("Norm Architects designs fabric-covered cabinets for Zilenzio to bring calm and quiet.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#pic3{
+    position:absolute;
+    left: 0;
+    bottom: 0%;
+    width: 350px;
+    height: 250px;
+    background-color: khaki;
+    background-image: url("Tone Cabinets - Norm.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#content{
+    text-align: center;
+    position: absolute;
+    right: 15%;
+    bottom: 10%;
+}
+
+#content p{
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+#right{
+    position: relative;
+    width: 40%;
+    min-height:inherit;
+    background-color:#51667D;
+}
+
+#top{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+}
+
+#topcontent{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    color: #dadada;
+    /* background-color: aqua; */
+}
+
+#topcontentlft{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+#lefts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding: 50px;
+}
+
+#lft1 h2{
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+#lft1 p{
+    font-size: 14px;
+    opacity: .8;
+}
+
+#lft2{
+    margin-top: 20px;
+    opacity: .8;
+}
+
+#lft2 h5{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#lft2 p{
+    font-size: 11px;
+}
+
+#lft3{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    opacity: .8;
+}
+
+#bcircle{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    margin-right: 20px;
+}
+
+#bcircle .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#lft3 .circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ffff;
+    margin-right: 20px;
+}
+
+
+#topcontentrght{
+    position: relative;
+    width: 50%;
+    height: 100%; 
+    opacity: .8;
+}
+
+#topcontentrght h2{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+}
+
+#topcontentrght #circle{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    color: #dadada;
+}
+
+#topcontentrght #line{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #dadada;
+    opacity: .6;
+}
+
+#cartcontainer{
+    display: flex;
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    height: 15%;
+    
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color:#51667D ;
+}
+
+.cart p{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.cart i{
+    font-size: 12px;
+}
+
+.cart:nth-child(1){
+    background-color: #ffff;
+}
+
+.cart:nth-child(2){
+    background-color:#51667D ;
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-color: lightgoldenrodyellow;
+}
+
+#btmlft{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+#btmlftw{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+}
+
+#btmlftw p{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+
+#btmrght{
+    width: 45%;
+    height: 100%;
+    background-image: url("Small Nail Spa Salon Interior Design.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:500px){
+    #back{
+        flex-direction: column;
+    }
+
+    #nav{
+        top: 5%;
+        position: fixed;
+        width: 100%;
+    }
+    #nav a{
+        margin-left: 50px;
+    }
+    #nav i{
+        margin-left: 50px;
+    }
+    #left{
+        width: 100%;
+    }
+    #pic1{
+        top: 20%;
+        width: 110px;
+        height: 110px;
+    }
+    #pic2{
+        top: 20%;
+        width: 300px;
+        height: 300px;
+    }
+    #pic3{
+        width: 250px;
+        height: 150px;
+    }
+    #right{
+        width: 100%;
+    }
+    #top{
+        height: 80vh;
+    }
+    #topcontent{
+        height: 70vh;
+    }
+    #topcontentlft{
+        height: 70vh;
+    }
+    #topcontentrght{
+        height: 70vh;
+    }
+    #cartcontainer{
+        height: 10vh;
+    }
+    .cart{
+        height: 10vh;
+    }
+    #bottom{
+        height: 40vh;
+    }
+    #btmlft{
+        width: 100%;
+        height: 40vh;
+    }
+    #btmrght{
+        width: 100%;
+        height: 40vh;
+    } 
+}
